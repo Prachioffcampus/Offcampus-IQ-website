@@ -6,6 +6,7 @@ function JavaScript() {
   return (
     <>
         {/* js programming section */}
+        
          <div className='bg-[#71c0c03f] pt-2'>
               {/* js image section */}
                   <div className='flex items-center  lg:gap-8 lg:mx-[7rem] md:ml-[4rem] md:mt-[3rem] lg:pt-[3rem] p-5 gap-6'>
