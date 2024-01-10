@@ -1,11 +1,12 @@
 
 import React from 'react'
-import Sidebar from './Sidebar';
+import Sidebar from './Sidebar'
+
 function  JavaScriptLayout({children}) {
   return (
     <div className='flex'> 
 
-    <Sidebar/>
+  <Sidebar/>
     {children}
     </div>
   )

@@ -5,6 +5,9 @@ import { FaBlogger } from "react-icons/fa"
 import Docs from '../React/Docs'
 
 
+
+
+
 function JavaScript() {
   return (
     <>
@@ -24,7 +27,7 @@ function JavaScript() {
                         {/* link section */}
                           <div className='lg:flex md:gap-10 ml-2 
                           text-[#4d4c4c] leading-tight uppercase  hidden   border-black'>
-                                <Link href={"#"} className='flex items-center gap-2 lg:text-[1.3em] border-b-4 border-blue-300 rounded hover:text-blue-500 duration-100'>
+                                <Link href={"/Course/javascript"} className='flex items-center gap-2 lg:text-[1.3em] border-b-4 border-blue-300 rounded hover:text-blue-500 duration-100'>
                                           <FaBook />
                                           Docs
                                 </Link>
@@ -52,7 +55,7 @@ function JavaScript() {
 
               {/* docs */}
               <div className='flex gap-4 sm:gap-6 ml-5 md:ml-[5rem] lg:hidden  '>
-                        <Link href={"#"} className='flex  items-center gap-2 sm:text-[14px] text-[0.8rem] md:text-[1.3rem] hover:text-blue-500 border-b-4  border-blue-300 rounded duration-100'>
+                        <Link href={"/Course/java"} className='flex  items-center gap-2 sm:text-[14px] text-[0.8rem] md:text-[1.3rem] hover:text-blue-500 border-b-4  border-blue-300 rounded duration-100'>
                                   <FaBook />
                                   Docs
                         </Link>

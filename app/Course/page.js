@@ -25,12 +25,12 @@ function JavaScript() {
                         {/* link section */}
                           <div className='lg:flex md:gap-10 ml-2 
                           text-[#4d4c4c] leading-tight uppercase  hidden   border-black'>
-                                <Link href={"#"} className='flex items-center gap-2 lg:text-[1.3em] border-b-4 border-blue-300 rounded hover:text-blue-500 duration-100'>
+                                <Link href="/Course/javascript" className='flex items-center gap-2 lg:text-[1.3em] border-b-4 border-blue-300 rounded hover:text-blue-500 duration-100'>
                                           <FaBook />
                                           Docs
                                 </Link>
 
-                                <Link href={"#"} className='flex items-center gap-2 lg:text-[1.3em] hover:border-b-4 hover:border-blue-300 rounded hover:text-blue-500 duration-100'>
+                                <Link href={"/Course"} className='flex items-center gap-2 lg:text-[1.3em] hover:border-b-4 hover:border-blue-300 rounded hover:text-blue-500 duration-100'>
                                           <FaBlogger />
                                           Interview
                                 </Link>

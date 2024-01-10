@@ -107,3 +107,6 @@ body::-webkit-scrollbar-track:active {
 }
 
 }
+.scroll::-webkit-scrollbar{
+  display: none;
+}
