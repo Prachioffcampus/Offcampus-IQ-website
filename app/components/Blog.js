@@ -8,7 +8,7 @@ const Blog = () => {
     {
       id: 1,
       title: 'Top  50 javascript interview questions',
-      href: './Course_list',
+      href: './Blogs/JS',
       imageUrl:
         'https://tse4.mm.bing.net/th?id=OIP.1Se7tgAnRox2K9H5L77QOAAAAA&pid=Api&P=0&h=220',
       date: 'Mar 16, 2023',
@@ -24,7 +24,7 @@ const Blog = () => {
     {
       id: 2,
       title: 'Top  52 Node js interview questions',
-      href: './Course_list',
+      href: './Blogs/Nodejs',
       imageUrl:
         'https://tse3.mm.bing.net/th?id=OIP.4eZw-zCGukXnfl5q6NfS9AHaD5&pid=Api&P=0&h=220',
       date: 'Mar 16, 2023',
@@ -50,9 +50,6 @@ const Blog = () => {
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
-
-   
- 
 
     {
       id: 4,
@@ -80,9 +77,9 @@ const Blog = () => {
     <div className="bg-white py-24 mt-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center ">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900  sm:text-4xl">From the blog</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900  sm:text-4xl">From the blog's</h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Learn how to grow your business with our expert advice.
+            Let's Learn how to grow with our expert advice.
           </p>
         </div>
         <div className="mx-auto mt-16  grid max-w-2xl sm:scroll-mt-7 grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
