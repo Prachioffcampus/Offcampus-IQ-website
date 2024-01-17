@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero2 = () => {
   return (
-    <div className='hero2_main hidden sm:hidden md:block bg-slate-100'>
+    <div className='hero2_main hidden sm:hidden md:block bg-slate-100 px-6 py-24 '>
       <div className='hero2_top text-gray-300 font-medium block text-center py-6'>
         Organizations we've helped
       </div>

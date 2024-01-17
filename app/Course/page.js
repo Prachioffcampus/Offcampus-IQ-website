@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import { FaBook } from "react-icons/fa"
 import { FaBlogger } from "react-icons/fa"
-
 import Docs from '../React/Docs'
 
 
